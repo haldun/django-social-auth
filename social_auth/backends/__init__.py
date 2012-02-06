@@ -59,7 +59,10 @@ AX_SCHEMA_ATTRS = [
 SREG_ATTR = [
     ('email', 'email'),
     ('fullname', 'fullname'),
-    ('nickname', 'nickname')
+    ('nickname', 'nickname'),
+
+    # For TurkcellOpen ID
+    ('userIndex', 'userIndex'),
 ]
 OPENID_ID_FIELD = 'openid_identifier'
 SESSION_NAME = 'openid'
